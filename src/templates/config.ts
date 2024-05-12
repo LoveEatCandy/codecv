@@ -3,7 +3,7 @@ import { ref } from 'vue'
 const initialCVState: Map<string, string[]> = new Map()
 
 // 创作模板的默认配置
-initialCVState.set('create', ['#333', '#333', '', '25'])
+initialCVState.set('create', ['#000000', '#707070', '', '25'])
 
 type Module = {
   default: SubModule
